@@ -60,8 +60,10 @@
     display: block;
     text-align: center;
   }
-
   
+  footer a{
+    color: white;
+  }
   .copy {
     margin-bottom: 10px;
   }
