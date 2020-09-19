@@ -28,7 +28,6 @@
     margin: 5px 0px 0px 0px;
     font-family: ratio, sans-serif;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 1280px;
     margin: auto;
   }
@@ -38,7 +37,7 @@
     font-weight: 600;
     font-style: normal;
     font-size: 32px;
-    color: #001628;
+    color: white;
     margin: 5px 25px;
 }
 
@@ -47,7 +46,7 @@
     font-weight: 600;
     font-style: normal;
     font-size: 25px;
-    color: white;
+    color: #001628;
   }
   
   footer {
@@ -61,6 +60,7 @@
     display: block;
     text-align: center;
   }
+
   
   .copy {
     margin-bottom: 10px;
