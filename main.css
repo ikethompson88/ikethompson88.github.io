@@ -1,35 +1,59 @@
-body {
-    background-color: #ddd;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    max-width: 1100px;
-  }
-  
-  h1 {
-    margin: 0px;
-  }
+
+@import url("https://use.typekit.net/bzl8pto.css");
   
   header {
+    border-radius: 5px;
     padding: 15px;
     color: #fff;
     background-color: #68A2B9;
   }
   
   header img {
+    padding: 15px;
+    border-radius: 25px;
     float: right;
     width: 20%;
     height: auto;
   }
-  
+
   main {
     padding: 15px;
-    max-width: 75%;
+  }
+
+  main li{
+  padding: 2px
+  }
+
+  body {
+    margin: 5px 0px 0px 0px;
+    font-family: ratio, sans-serif;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  h1{
+    font-family: adelle, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    color: #white;
+    margin: 5px 25px;
+}
+
+  h2{
+    font-family: adelle, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #white;
   }
   
   footer {
-    clear: right;
+    border-radius: 5px;
     padding: 15px;
-    color: #000;
+    color: white;
     background-color: #68A2B9;
   }
   
@@ -43,5 +67,6 @@ body {
   }
   
   .modified {
-    font-size: .8em;
+    font-size: .75em;
+    color: white;
   }
