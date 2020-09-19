@@ -52,15 +52,13 @@
   footer {
     border-radius: 5px;
     padding: 15px;
+    display: block;
+    text-align: center;
     color: white;
     background-color: #68A2B9;
   }
   
-  footer div {
-    display: block;
-    text-align: center;
-  }
-  
+  .copy, 
   footer a{
     color: white;
     text-decoration: none;
