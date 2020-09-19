@@ -1,5 +1,5 @@
 let date = new Date();
-let updated = file.lastModified;
+let updated = document.lastModified;
 
-file.getElementById("year").innerHTML = date.getFullYear();
-file.getElementById("last-updated").innerHTML = updated;
+document.getElementById("year").innerHTML = date.getFullYear();
+document.getElementById("last-updated").innerHTML = updated;
