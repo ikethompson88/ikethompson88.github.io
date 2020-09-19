@@ -63,7 +63,13 @@
   
   footer a{
     color: white;
+    text-decoration: none;
   }
+
+footer a:hover{
+    transition: .5s;
+    color: #001628;
+}
   
   .updated {
     padding: 2px;
