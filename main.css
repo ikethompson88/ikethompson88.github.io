@@ -1,0 +1,43 @@
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    margin: 0px;
+  }
+  
+  header {
+    padding: 15px;
+    color: #fff;
+    background-color: #68A2B9;
+  }
+  
+  header img {
+    float: right;
+    width: 25%;
+  }
+  
+  main {
+    padding: 15px;
+  }
+  
+  footer {
+    clear: right;
+    padding: 15px;
+    color: #000;
+    background-color: #68A2B9;
+  }
+  
+  footer div {
+    display: block;
+    text-align: center;
+  }
+  
+  .copy {
+    margin-bottom: 10px;
+  }
+  
+  .modified {
+    font-size: .8em;
+  }
