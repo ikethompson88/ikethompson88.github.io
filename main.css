@@ -58,7 +58,9 @@
     background-color: #68A2B9;
   }
   
-  .copy, 
+.copy{
+  display: inline-flex;
+}
   footer a{
     color: white;
     text-decoration: none;
