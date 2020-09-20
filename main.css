@@ -50,12 +50,13 @@
   }
   
   footer {
+    color: white;
+    background-color: #355464;
     border-radius: 5px;
     padding: 15px;
     display: inline-block;
     text-align: center;
-    color: white;
-    background-color: #355464;
+    width: 100%;
   }
   
 .copy{
