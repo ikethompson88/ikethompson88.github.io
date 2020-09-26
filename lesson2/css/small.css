@@ -6,3 +6,10 @@ main {
     display: grid;
     grid-template-columns: 1 fr;
 }
+
+header, footer {
+    text-align: center;
+    color: #fff;
+    background-color: #355464;
+    padding: 15px;
+  }

@@ -3,7 +3,6 @@
   
   header {
     border-radius: 5px;
-    padding: 15px;
     width: 100%;
   }
   
@@ -16,6 +15,7 @@
     text-align: center;
     color: #fff;
     background-color: #355464;
+    padding: 15px;
   }
 
   main {
@@ -51,7 +51,6 @@
   }
   
   footer {
-    padding: 15px;
     display: inline-block;
     width: 100%;
   }
