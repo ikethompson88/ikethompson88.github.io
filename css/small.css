@@ -4,12 +4,14 @@
   header img {
     width: 200px;
     height: auto;
+    border-radius: 15px;
   }
 
   header, footer {
     text-align: center;
     color: #fff;
     background-color: #355464;
+    border-radius: 15px;
     padding: 15px;
     width: 100%;
   }
