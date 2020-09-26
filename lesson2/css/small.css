@@ -14,7 +14,8 @@ header, footer {
     text-align: center;
     color: #fff;
     background-color: #355464;
-    padding: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
     width: 100%;
 }
 
@@ -28,6 +29,7 @@ body {
 h3 {
     background-color: #99D9D9;
     padding: 15px;
+    border-radius: 5px;
 }
 
 #image-one, #image-two, #image-three {
@@ -37,7 +39,7 @@ h3 {
 }
 
 p {
-    padding: 0 20px;
+    padding: 20px;
     text-align: left;
 }
 
