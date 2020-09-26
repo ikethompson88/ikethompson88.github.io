@@ -1,7 +1,8 @@
 body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+    font-size: 16px;
+    font-family: "Sansita", Ubuntu, sans-serif;
 }
+
 main {
     display: grid;
     grid-template-columns: 1 fr;
@@ -13,4 +14,23 @@ header, footer {
     background-color: #355464;
     padding: 15px;
     width: 100%;
+}
+.copy{
+    display: inline-flex;
   }
+
+  .updated {
+      padding: 2px;
+      font-size: .9em;
+      color: #99d9d9;
+    }
+
+    footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    transition: .5s;
+    color: red;
+}
