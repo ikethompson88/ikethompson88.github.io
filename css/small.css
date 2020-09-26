@@ -4,17 +4,18 @@
   header {
     border-radius: 5px;
     padding: 15px;
-    color: #fff;
-    background-color: #355464;
     width: 100%;
   }
   
   header img {
-    padding: 15px;
-    border-radius: 25px;
-    float: right;
-    width: 20%;
+    width: 200px;
     height: auto;
+  }
+
+  header, footer {
+    text-align: center;
+    color: #fff;
+    background-color: #355464;
   }
 
   main {
@@ -50,12 +51,8 @@
   }
   
   footer {
-    color: white;
-    background-color: #355464;
-    border-radius: 5px;
     padding: 15px;
     display: inline-block;
-    text-align: center;
     width: 100%;
   }
   
