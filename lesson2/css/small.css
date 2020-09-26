@@ -12,20 +12,31 @@ header, footer {
     text-align: center;
     color: #fff;
     background-color: #355464;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
 }
+
+h2 {
+    text-align: center;
+}
+
+body {
+    margin: 5px 0px 0px 0px;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto;
+  }
 .copy{
     display: inline-flex;
   }
 
-  .updated {
-      padding: 2px;
-      font-size: .9em;
-      color: #99d9d9;
+.updated {
+    padding: 2px;
+    font-size: .9em;
+    color: #99d9d9;
     }
 
-    footer a {
+footer a {
     color: white;
     text-decoration: none;
 }
