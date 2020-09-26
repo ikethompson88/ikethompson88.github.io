@@ -1,11 +1,6 @@
 
 @import url("https://use.typekit.net/bzl8pto.css");
   
-  header {
-    border-radius: 5px;
-    width: 100%;
-  }
-  
   header img {
     width: 200px;
     height: auto;
@@ -16,6 +11,7 @@
     color: #fff;
     background-color: #355464;
     padding: 15px;
+    width: 100%;
   }
 
   main {
@@ -48,11 +44,6 @@
     font-size: 1em;
     font-weight: 600;
     color: #001628;
-  }
-  
-  footer {
-    display: inline-block;
-    width: 100%;
   }
   
 .copy{
