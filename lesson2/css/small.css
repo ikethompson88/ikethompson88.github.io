@@ -32,7 +32,7 @@ h3 {
     border-radius: 5px;
 }
 
-#image-one, #image-two, #image-three {
+.image-one, .image-two, .image-three {
     width: 65%;
     padding: 10px;
     border: 1px solid black;
@@ -43,7 +43,7 @@ p {
     padding: 0px 15px;
 }
 
-#center {
+.center {
     text-align: center;
 }
 .copy{

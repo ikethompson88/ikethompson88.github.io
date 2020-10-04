@@ -10,12 +10,18 @@
         padding: 0px 0px 0px 10px;
     }
 
-      nav ul { display: flex; }
-        nav ul li { flex: 1 1 100%; }
-        
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
     body {
         text-align: left;
     }
+
     .center-small {
         text-align: left;
     }
