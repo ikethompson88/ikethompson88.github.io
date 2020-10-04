@@ -1,0 +1,134 @@
+body {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px 0px 0px 5px;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+header img {
+    width: 75px;
+    height: auto;
+}
+
+main {
+    display: block;
+}
+
+.domain {
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    margin: 5px 0px 0px 5px;
+}
+
+.color-inspiration {
+    width: 450px;
+    height: auto;
+    margin: 5px 0px 0px 5px;
+}
+
+.color-scheme {
+    width: 80%;
+    height: auto;
+    margin: 5px 0px 0px 5px;
+}
+
+.typography {
+    width: 300px;
+    height: auto;
+    margin: 5px 0px 0px 5px;
+}
+
+.type-example {
+    width: 50%;
+    height: auto;
+    margin: 5px 0px 0px 5px;
+}
+
+nav {
+    background-color: #99D9D9;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #001628;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background-color: #001628;
+    color: white;
+    transition: .25s;
+}
+
+header,
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #355464;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #001628;
+    padding: 5px 0px 0px 5px;
+}
+
+h4 {
+    color: #001628;
+    padding: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding: 5px 0px 0px 5px;
+}
+
+.center-small {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+.copy {
+    display: inline-flex;
+}
+
+.updated {
+    padding: 2px;
+    font-size: .9em;
+    color: #99d9d9;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    transition: .5s;
+    color: red;
+}
