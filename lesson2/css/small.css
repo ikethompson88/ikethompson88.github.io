@@ -6,11 +6,12 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-gap: 25px;
 }
 
-header, footer {
+header,
+footer {
     text-align: center;
     color: #fff;
     background-color: #355464;
@@ -24,7 +25,7 @@ body {
     background-color: white;
     max-width: 1280px;
     margin: auto;
-  }
+}
 
 h3 {
     background-color: #99D9D9;
@@ -32,7 +33,9 @@ h3 {
     border-radius: 5px;
 }
 
-.image-one, .image-two, .image-three {
+.image-one,
+.image-two,
+.image-three {
     width: 65%;
     padding: 10px;
     border: 1px solid black;
@@ -46,15 +49,16 @@ p {
 .center {
     text-align: center;
 }
-.copy{
+
+.copy {
     display: inline-flex;
-  }
+}
 
 .updated {
     padding: 2px;
     font-size: .9em;
     color: #99d9d9;
-    }
+}
 
 footer a {
     color: white;
