@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 5px 0px 0px 5px;
     background-color: white;
-    max-width: auto;
+    max-width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -22,7 +22,7 @@ main {
 
 nav {
     margin: 0 auto;
-    max-width: auto;
+    max-width: 100%;
     background-color: #B4BFCD;
     text-align: center;
 

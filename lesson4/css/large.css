@@ -12,6 +12,19 @@
         padding: 0px 0px 0px 10px;
     }
 
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
     body {
         text-align: left;
     }
