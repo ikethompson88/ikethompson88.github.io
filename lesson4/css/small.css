@@ -85,12 +85,12 @@ h1 {
 }
 
 h2 {
-    color: #001628;
+    color: #1E2A3D;
     padding: 5px 0px 0px 5px;
 }
 
 h4 {
-    color: #001628;
+    color: #1E2A3D;
     padding: 5px 0px 0px 5px;
     text-align: center;
 }
@@ -116,7 +116,7 @@ p {
 .updated {
     padding: 2px;
     font-size: .9em;
-    color: #99d9d9;
+    color: #B4BFCD;
 }
 
 footer a {
