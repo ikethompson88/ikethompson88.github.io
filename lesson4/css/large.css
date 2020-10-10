@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        display: block;
+        max-width: 720px;
+    }
+
+    header img {
+        width: 75px;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    h4 {
+        text-align: left;
+    }
+}

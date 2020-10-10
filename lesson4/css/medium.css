@@ -1,0 +1,36 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        display: block;
+        max-width: 460px;
+    }
+
+    header img {
+        width: 75px;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    h4 {
+        text-align: left;
+    }
+
+}
