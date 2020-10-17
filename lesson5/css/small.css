@@ -15,7 +15,11 @@ header img {
 
 main {
     display: block;
-    margin: auto;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
 }
 
 nav {
@@ -62,7 +66,7 @@ nav ul li a {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     color: #fff;
     background-color: #1E2A3D;
     padding: 5px;

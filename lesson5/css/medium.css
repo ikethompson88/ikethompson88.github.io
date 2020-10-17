@@ -4,10 +4,9 @@
     }
 
     header img {
-        width: 115px;
+        max-width: 150px;
         height: auto;
         float: left;
-        padding: 0px 0px 0px 10px;
     }
 
     .navigation {
