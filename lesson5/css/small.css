@@ -82,6 +82,21 @@ footer {
     margin: auto;
 }
 
+.hero-div {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.current-weather {
+    position: absolute;
+    Top: 25px;
+    Left 50px;
+}
+
 h1 {
     color: white;
     padding: 0px 0px 0px 0px;
