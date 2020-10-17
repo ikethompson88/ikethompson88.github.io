@@ -1,15 +1,14 @@
 @media only screen and (min-width: 32.5em) {
     main {
-        grid-template-columns: 1fr 1fr;
         display: block;
         max-width: 460px;
     }
 
     header img {
-        width: 100px;
+        width: 115px;
         height: auto;
         float: left;
-        padding: 0px 0px 0px 15px;
+        padding: 0px 0px 0px 10px;
     }
 
     .navigation {

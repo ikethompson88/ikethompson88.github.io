@@ -9,7 +9,7 @@ body {
 }
 
 header img {
-    width: 100px;
+    width: 115px;
     height: auto;
 }
 
@@ -82,11 +82,12 @@ footer {
 
 h1 {
     color: white;
+    padding: 0px 0px 0px 0px;
 }
 
 h2 {
     color: #1E2A3D;
-    padding: 5px 0px 0px 5px;
+    padding: 0px 0px 0px 0px;
 }
 
 h4 {
