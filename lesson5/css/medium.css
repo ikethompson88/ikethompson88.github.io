@@ -1,0 +1,38 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        display: block;
+    }
+
+    header img {
+        width: 115px;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    h4 {
+        text-align: left;
+    }
+
+}
