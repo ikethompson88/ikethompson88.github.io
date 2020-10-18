@@ -11,6 +11,8 @@
 
     .navigation {
         display: flex;
+        max-width: 1260px;
+        margin: auto;
     }
 
     .navigation li:first-child {
@@ -25,13 +27,30 @@
     .responsive li {
         display: block;
     }
+    
+.hero-div {
+    position: relative;
+    max-width: 1260px;
+    margin: auto;
+}
 
-    body {
-        text-align: left;
-    }
+.hero-image {
+    width: 100%;
+    height: auto;
+}
 
-    h4 {
-        text-align: left;
-    }
+.current-weather {
+    Top: 25px;
+    Left: 50px;
+    background-color: #5C5935;
+    padding: 10px 25px;
 
+    
+}
+    .current-weather p {
+    text-align: left;
+}
+.day {
+	font-size: 1rem;
+}
 }

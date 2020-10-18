@@ -8,6 +8,14 @@ body {
     text-align: center;
 }
 
+header, header p {
+    text-align: center;
+    color: #fff;
+    background-color: #1E2A3D;
+    padding: 5px;
+    width: 100%;
+}
+
 header img {
     width: 115px;
     height: auto;
@@ -15,6 +23,7 @@ header img {
 
 main {
     display: block;
+    margin: auto;
 }
 
 main img {
@@ -65,14 +74,6 @@ nav ul li a {
     display: block;
 }
 
-header {
-    text-align: left;
-    color: #fff;
-    background-color: #1E2A3D;
-    padding: 5px;
-    width: 100%;
-}
-
 footer {
     text-align: center;
     color: #fff;
@@ -92,11 +93,53 @@ footer {
 }
 
 .current-weather {
-    position: absolute;
     Top: 25px;
-    Left 50px;
+    Left: 50px;
+    background-color: #5C5935;
+    padding: 10px 25px;
+    
 }
 
+.current-weather h2 {
+    color: white;
+}
+
+.current-weather p {
+    color: white;
+    text-align: center;
+}
+
+.five-day-forecast {
+    max-width: 1260px;
+    display: flex;
+    margin: auto;
+    border-bottom: 2px solid #1A2E3D;
+    border-left: 2px solid #1A2E3D;
+}
+
+.five-day-forecast img {
+    max-width: 40%;
+}
+.day {
+	display: block;
+	padding: 5px;
+	text-align: center;
+	font-size: .75rem;
+	background-color: #1E2A3D;
+	color: white;
+}
+
+.forecast-col {
+   flex: 1 1 auto;
+   border-right: 2px solid #1A2E3D; 
+}
+
+.temp {
+    display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
 h1 {
     color: white;
     padding: 0px 0px 0px 0px;
