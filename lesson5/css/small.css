@@ -119,6 +119,7 @@ footer {
 
 .five-day-forecast img {
     max-width: 40%;
+    padding: 10px 0px 0px 0px;
 }
 .day {
 	display: block;
@@ -136,29 +137,9 @@ footer {
 
 .temp {
     display: block;
-	padding: 0 5px 5px;
+	padding: 0px 0px 15px 0px;
 	font-size: 0.8rem;
 	text-align: center;
-}
-h1 {
-    color: white;
-    padding: 0px 0px 0px 0px;
-}
-
-h2 {
-    color: #1E2A3D;
-    padding: 0px 0px 0px 0px;
-}
-
-h4 {
-    color: #1E2A3D;
-    padding: 5px 0px 0px 5px;
-    text-align: center;
-}
-
-p {
-    text-align: left;
-    padding: 5px 0px 0px 5px;
 }
 
 .placeholder {
