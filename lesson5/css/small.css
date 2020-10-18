@@ -8,7 +8,8 @@ body {
     text-align: center;
 }
 
-header, header p {
+header,
+header p {
     text-align: center;
     color: #fff;
     background-color: #1E2A3D;
@@ -76,10 +77,12 @@ nav ul li a {
     color: #1E2A3D;
     transition: .25s;
 }
+
 .active {
     background-color: #F6E7A3;
     color: #1E2A3D;
 }
+
 .responsive li {
     display: block;
 }
@@ -108,7 +111,7 @@ footer {
     Left: 50px;
     background-color: #5C5935;
     padding: 10px 25px;
-    
+
 }
 
 .current-weather h2 {
@@ -125,6 +128,7 @@ footer {
     max-width: 1260px;
     margin: auto;
 }
+
 .five-day-forecast {
     max-width: 1260px;
     display: flex;
@@ -137,30 +141,31 @@ footer {
     max-width: 40%;
     padding: 15px 0px 0px 0px;
 }
+
 .day {
-	display: block;
-	padding: 5px;
-	text-align: center;
-	font-size: .75rem;
-	background-color: #1E2A3D;
-	color: white;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: .75rem;
+    background-color: #1E2A3D;
+    color: white;
 }
 
 .forecast-col {
-   flex: 1 1 auto;
-   border-right: 2px solid #1A2E3D; 
+    flex: 1 1 auto;
+    border-right: 2px solid #1A2E3D;
 }
 
 .temp {
     display: block;
-	padding: 0px 0px 15px 0px;
-	font-size: 0.8rem;
-	text-align: center;
+    padding: 0px 0px 15px 0px;
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 .article {
-  margin: auto;
-  padding:15px 0px 15px 0px;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
 }
 
 .article h1 {
@@ -172,8 +177,8 @@ footer {
 }
 
 .article img {
-  width: 300px;
-  height: auto;
+    width: 300px;
+    height: auto;
 }
 
 .contact-info-title {

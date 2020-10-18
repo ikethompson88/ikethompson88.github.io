@@ -8,13 +8,13 @@
         height: auto;
         float: left;
     }
-    
+
     .location-title {
-    text-align: left;
-    max-width: 1260px;
-    margin: auto;
-    padding: 15px;
-}
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px;
+    }
 
     .navigation {
         display: flex;
@@ -34,70 +34,76 @@
     .responsive li {
         display: block;
     }
-    
-.hero-div {
-    position: relative;
-    max-width: 1260px;
-    margin: auto;
-}
 
-.hero-image {
-    width: 100%;
-    height: auto;
-}
+    .hero-div {
+        position: relative;
+        max-width: 1260px;
+        margin: auto;
+    }
 
-.current-weather {
-    Top: 25px;
-    Left: 50px;
-    background-color: #5C5935;
-    padding: 10px 25px;
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
 
-    
-}
+    .current-weather {
+        Top: 25px;
+        Left: 50px;
+        background-color: #5C5935;
+        padding: 10px 25px;
+
+
+    }
+
     .current-weather p {
-    text-align: left;
-}
+        text-align: left;
+    }
+
     .forecast-title {
-    text-align: left;
-    max-width: 1260px;
-    margin: auto;
-}
-.day {
-	font-size: 1rem;
-}
- .article {
-  max-width: 720px;
-  margin: auto;
-  padding: 15px 0px 15px 0px;
-}
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+    }
 
-.article h1, p{
-    text-align: left;
-}
+    .day {
+        font-size: 1rem;
+    }
 
-.article img {
-  float: right;
-  width: 300px;
-  height: auto;
-}
-    
+    .article {
+        max-width: 720px;
+        margin: auto;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .article h1,
+    p {
+        text-align: left;
+    }
+
+    .article img {
+        float: right;
+        width: 300px;
+        height: auto;
+    }
+
     .contact-info-title {
-    text-align: left;
-}
-    .contact-information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #B4BFCD;
-    max-width: 1260px;
-    margin: auto;
-}
+        text-align: left;
+    }
 
-.contact-map {
-    width: 100%;
-    height: auto;
-    padding: 25px;
-}
-    
+    .contact-information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #B4BFCD;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+    }
+
     .contact-info {
         padding: 100px;
     }
