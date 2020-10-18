@@ -8,6 +8,13 @@
         height: auto;
         float: left;
     }
+    
+    .location-title {
+    text-align: left;
+    max-width: 1260px;
+    margin: auto;
+    padding: 15px;
+}
 
     .navigation {
         display: flex;
@@ -50,7 +57,48 @@
     .current-weather p {
     text-align: left;
 }
+    .forecast-title {
+    text-align: left;
+    max-width: 1260px;
+    margin: auto;
+}
 .day {
 	font-size: 1rem;
 }
+ .article {
+  max-width: 720px;
+  margin: auto;
+  padding: 15px 0px 15px 0px;
+}
+
+.article h1, p{
+    text-align: left;
+}
+
+.article img {
+  float: right;
+  width: 300px;
+  height: auto;
+}
+    
+    .contact-info-title {
+    text-align: left;
+}
+    .contact-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #B4BFCD;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.contact-map {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+    
+    .contact-info {
+        padding: 100px;
+    }
 }
