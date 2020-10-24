@@ -34,7 +34,11 @@
     <main>
         <h1 class="location-title">Preston, Idaho</h1>
         <div class="hero-div">
-            <img class="hero-image" src="images/" alt="idaho country-side">
+            <picture>
+                <source srcset="images/hero-400-preston.jpg" media=" (min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/hero-600-preston.jpg" media=" (min-width: 800px)">   
+                <img class="hero-image" src="images/hero-250-preston.jpg" alt="landscape with clouds">
+            </picture>    
             <section class="current-weather">
                 <h2>Weather Summary</h2>
                 <p>Currently: Partly Cloudy</p>
