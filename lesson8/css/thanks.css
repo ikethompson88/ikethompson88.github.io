@@ -4,7 +4,6 @@ body {
     margin: 5px 0px 0px 5px;
     background-color: white;
     max-width: 100%;
-    margin: auto;
     text-align: center;
 }
 
@@ -15,7 +14,7 @@ header img {
 
 main {
     display: block;
-    margin: auto;
+    padding: 100px;
 }
 
 nav {
@@ -78,16 +77,6 @@ footer {
     margin: auto;
 }
 
-/* SUBMISSION FORM CSS */
-
-form {
-    padding: 1.5em;
-}
-
-
-
-/* SUBMISSION FORM CSS */
-
 h1 {
     color: white;
     padding: 0px 0px 0px 0px;
@@ -96,12 +85,6 @@ h1 {
 h2 {
     color: #1E2A3D;
     padding: 0px 0px 0px 0px;
-}
-
-h4 {
-    color: #1E2A3D;
-    padding: 5px 0px 0px 5px;
-    text-align: center;
 }
 
 .copy {
@@ -122,4 +105,77 @@ footer a {
 footer a:hover {
     transition: .5s;
     color: #F6E7A3;
+}
+
+/* MEDIUM SCREENS */
+
+@media only screen and (min-width: 32.5em) {
+    main {
+        display: block;
+        max-width: 460px;
+        margin: auto;
+    }
+
+    header img {
+        width: 115px;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    body {
+        text-align: center;
+    }
+
+}
+
+/* LARGE SCREENS */
+
+@media only screen and (min-width: 60em) {
+    main {
+        display: block;
+        max-width: 720px;
+        margin: auto;
+    }
+
+    header img {
+        width: 115px;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    body {
+        text-align: center;
+    }
 }
