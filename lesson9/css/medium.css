@@ -30,4 +30,8 @@
     div.cards {
         grid-template-columns: 1fr;
     }
+
+    div.cards section {
+        display: block;
+    }
 }
