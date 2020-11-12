@@ -1,19 +1,9 @@
-@media only screen and (min-width: 32.5em) {
-    main {
-        display: block;
-    }
+@media only screen and (min-width: 42.5em) {
 
     header img {
         max-width: 150px;
         height: auto;
         float: left;
-    }
-
-    .location-title {
-        text-align: left;
-        max-width: 1260px;
-        margin: auto;
-        padding: 15px;
     }
 
     .navigation {
@@ -35,76 +25,9 @@
         display: block;
     }
 
-    .hero-div {
-        position: relative;
-        max-width: 1260px;
-        margin: auto;
-    }
+    /* Town Cards */
 
-    .hero-image {
-        width: 100%;
-        height: auto;
-    }
-
-    .current-weather {
-        Top: 25px;
-        Left: 50px;
-        background-color: #5C5935;
-        padding: 10px 25px;
-
-
-    }
-
-    .current-weather p {
-        text-align: left;
-    }
-
-    .forecast-title {
-        text-align: left;
-        max-width: 1260px;
-        margin: auto;
-    }
-
-    .day {
-        font-size: 1rem;
-    }
-
-    .article {
-        max-width: 720px;
-        margin: auto;
-        padding: 15px 0px 15px 0px;
-    }
-
-    .article h1,
-    p {
-        text-align: left;
-    }
-
-    .article img {
-        float: right;
-        width: 300px;
-        height: auto;
-    }
-
-    .contact-info-title {
-        text-align: left;
-    }
-
-    .contact-information {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: #B4BFCD;
-        max-width: 1260px;
-        margin: auto;
-    }
-
-    .contact-map {
-        width: 100%;
-        height: auto;
-        padding: 25px;
-    }
-
-    .contact-info {
-        padding: 100px;
+    div.cards {
+        grid-template-columns: 1fr;
     }
 }

@@ -1,11 +1,15 @@
+/* General CSS */
+
 body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    margin: 5px 0px 0px 5px;
-    background-color: white;
+    text-align: center;
     max-width: 100%;
     margin: auto;
-    text-align: center;
+}
+
+main {
+    padding: 1rem;
 }
 
 header,
@@ -22,21 +26,9 @@ header img {
     height: auto;
 }
 
-main {
-    display: block;
-    margin: auto;
-}
-
 main img {
     max-width: 100%;
     height: auto;
-}
-
-.location-title {
-    text-align: center;
-    max-width: 1260px;
-    margin: auto;
-    padding: 15px;
 }
 
 nav {
@@ -96,114 +88,40 @@ footer {
     margin: auto;
 }
 
-.hero-div {
-    position: relative;
-    padding: 0px 0px 0px 0px
-}
+/* TOWN CARDS */
 
-.hero-image {
-    width: 100%;
-    height: auto;
-}
 
-.current-weather {
-    Top: 25px;
-    Left: 50px;
-    background-color: #5C5935;
-    padding: 10px 25px;
-
-}
-
-.current-weather h2 {
-    color: white;
-}
-
-.current-weather p {
-    color: white;
-    text-align: center;
-}
-
-.forecast-title {
-    text-align: center;
-    max-width: 1260px;
-    margin: auto;
-}
-
-.five-day-forecast {
-    max-width: 1260px;
-    display: flex;
-    margin: auto;
-    border-bottom: 2px solid #1A2E3D;
-    border-left: 2px solid #1A2E3D;
-}
-
-.five-day-forecast img {
-    max-width: 40%;
-    padding: 15px 0px 0px 0px;
-}
-
-.day {
-    display: block;
-    padding: 5px;
-    text-align: center;
-    font-size: .75rem;
-    background-color: #1E2A3D;
-    color: white;
-}
-
-.forecast-col {
-    flex: 1 1 auto;
-    border-right: 2px solid #1A2E3D;
-}
-
-.temp {
-    display: block;
-    padding: 0px 0px 15px 0px;
-    font-size: 0.8rem;
-    text-align: center;
-}
-
-.article {
-    margin: auto;
-    padding: 15px 0px 15px 0px;
-}
-
-.article h1 {
-    text-align: center;
-}
-
-.article p {
-    text-align: left;
-}
-
-.article img {
-    width: 300px;
-    height: auto;
-}
-
-.contact-info-title {
-    text-align: center;
-    margin: auto;
-    max-width: 1260px;
-}
-
-.contact-information {
+div.cards {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+
+div.cards section {
     background-color: #B4BFCD;
-    max-width: 1260px;
-    margin: auto;
+    padding: 0.5rem;
+    border: 1px solid #6b6868;
+    text-align: center;
 }
 
-.contact-map {
-    width: 100%;
-    height: auto;
-    padding: 25px;
+div.cards img {
+    max-width: 100%;
 }
 
-.contact-info {
-    padding: 150px 50px 50px 75px;
+.cards section:nth-of-type(1) {
+    order: 3;
 }
+
+.cards section:nth-of-type(2) {
+    order: 1;
+}
+
+.cards section:nth-of-type(3) {
+    order: 2;
+}
+
+/* FOOTER */
 
 .copy {
     display: inline-flex;
