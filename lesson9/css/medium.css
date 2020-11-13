@@ -32,6 +32,19 @@
     }
 
     div.cards section {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #B4BFCD;
+        padding: 0.5rem;
+        border: 1px solid #6b6868;
+        text-align: center;
+    }
+    
+    .cards section:nth-child(3) div:nth-child(odd){
+        order: 2;
+    }
+    
+    .cards section:nth-child(3) div:nth-child(odd) img {
+        order: 1;
     }
 }
