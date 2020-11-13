@@ -41,4 +41,8 @@
         text-align: center;
 
     }
+
+    div.cards img {
+        max-width: 95%;
+    }
 }

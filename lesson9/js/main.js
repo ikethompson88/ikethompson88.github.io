@@ -25,15 +25,23 @@ fetch(requestURL)
                 year.textContent = 'Year Founded: ' + towndata[i].yearFounded;
                 population.textContent = 'Population: ' + towndata[i].currentPopulation;
                 rainfall.textContent = 'Annual Rainfall: ' + towndata[i].averageRainfall;
-                image.setAttribute('src', towndata[i].photo);
-                image.setAttribute('alt', 'Photo of ' + towndata[i].name);
-
+                if (towndata[i].name == "Preston") {
+                    image.setAttribute('src', src = "images/preston-home.jpg");
+                    image.setAttribute('alt', 'Photo of Preston');
+                } else if (towndata[i].name == "Fish Haven") {
+                    image.setAttribute('src', src = "images/fish-haven-home.jpg");
+                    image.setAttribute('alt', 'Photo of Preston');
+                } else {
+                    image.setAttribute('src', src = "images/soda-springs-home.jpg");
+                    image.setAttribute('alt', 'Photo of Preston');
+                }
                 townInfo.appendChild(h2);
                 townInfo.appendChild(h3);
                 townInfo.appendChild(year);
                 townInfo.appendChild(population);
                 townInfo.appendChild(rainfall);
                 townImage.appendChild(image);
+
                 card.appendChild(townInfo);
                 card.appendChild(townImage);
 

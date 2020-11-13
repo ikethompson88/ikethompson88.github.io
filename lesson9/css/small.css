@@ -92,7 +92,7 @@ footer {
     text-align: center;
     color: #fff;
     background-color: #1E2A3D;
-    padding: 5px;
+    padding: 1rem;
     max-width: 1280px;
     margin: auto;
 }
@@ -111,9 +111,10 @@ div.cards section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #B4BFCD;
-    padding: 0.5rem;
+    padding: 1rem;
     border: 1px solid #6b6868;
     text-align: center;
+    align-items: center;
 }
 
 .cards section:nth-child(3) div:nth-child(odd){
@@ -125,7 +126,8 @@ div.cards section {
 }
 
 div.cards img {
-    max-width: 100%;
+    max-width: 95%;
+    border: 1px solid #6b6868;
 }
 
 .cards section:nth-of-type(1) {

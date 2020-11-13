@@ -196,9 +196,7 @@ footer {
 }
 
 .contact-map {
-    width: 100%;
-    height: auto;
-    padding: 25px;
+    max-width: 75%;
 }
 
 .contact-info {
