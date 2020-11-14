@@ -27,13 +27,13 @@ fetch(requestURL)
                 rainfall.textContent = 'Annual Rainfall: ' + towndata[i].averageRainfall;
                 if (towndata[i].name == "Preston") {
                     image.setAttribute('src', src = "images/preston-home.jpg");
-                    image.setAttribute('alt', 'Photo of Preston');
+                    image.setAttribute('alt', 'Preston, Idaho');
                 } else if (towndata[i].name == "Fish Haven") {
                     image.setAttribute('src', src = "images/fish-haven-home.jpg");
-                    image.setAttribute('alt', 'Photo of Preston');
+                    image.setAttribute('alt', 'Bear Lake near Fish Haven, Idaho');
                 } else {
                     image.setAttribute('src', src = "images/soda-springs-home.jpg");
-                    image.setAttribute('alt', 'Photo of Preston');
+                    image.setAttribute('alt', 'Soda Springs, Gyser');
                 }
                 townInfo.appendChild(h2);
                 townInfo.appendChild(h3);
