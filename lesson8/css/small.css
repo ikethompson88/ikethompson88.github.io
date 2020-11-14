@@ -78,6 +78,11 @@ footer {
     margin: auto;
 }
 
+.active {
+    background-color: #F6E7A3;
+    color: #1E2A3D;
+}
+
 /* SUBMISSION FORM CSS */
 
 form fieldset {
