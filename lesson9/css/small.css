@@ -26,9 +26,7 @@ main {
     padding: 1rem;
 }
 
-header,
-header p {
-    text-align: center;
+header {
     color: #fff;
     background-color: #1E2A3D;
     padding: 5px;
@@ -36,6 +34,7 @@ header p {
 }
 
 header img {
+    float: left;
     width: 115px;
     height: auto;
 }
