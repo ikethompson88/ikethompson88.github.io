@@ -15,11 +15,13 @@
 </head>
 
 <body>
+
     <header>
         <img class="logo" src="images/weather-eye-grey.png" alt="The Weather Eye logo">
         <h1>The Weather Eye</h1>
         <h3>Helping you keep an eye on Mother Nature</h3>
     </header>
+
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
@@ -31,52 +33,50 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
+
     <main>
-
-        <body>
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <label class="top">Full Name: <input type="text" name="fullName" required pattern="[a-zA-Z\s]{5,}"></label>
-                    <label class="top">Email Address: <input type="email" name="email" placeholder="email@example.com"></label>
-                    <label class="top">Phone: <input type="tel" name="number" required></label>
-                    <label class="top">Zip Code: <input type="number" name="zip" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Storm Information</legend>
-                    <label class="top">Storm Date: <input type="date" name="stormDate"></label>
-                    <label class="top">Storm Type: <input list="stormList" name="stormType">
-                        <datalist id="stormList">
-                            <option value="Flash Flood">
-                            <option value="Hail">
-                            <option value="Hurricane">
-                            <option value="Tornado">
-                            <option value="Thunderstorm">
-                    </label>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name: <input type="text" name="fullName" required
+                        pattern="[a-zA-Z\s]{5,}"></label>
+                <label class="top">Email Address: <input type="email" name="email"
+                        placeholder="email@example.com"></label>
+                <label class="top">Phone: <input type="tel" name="number" required></label>
+                <label class="top">Zip Code: <input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date: <input type="date" name="stormDate"></label>
+                <label class="top">Storm Type: <input list="stormList" name="stormType">
+                    <datalist id="stormList">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Tornado">
+                        <option value="Thunderstorm">
                     </datalist>
-                    <label class="top">Storm Severity:
-                        <input type="range" name="stormSeverity" min="0" max="10" value="5" step="1"></label>
-                    <label class="top">Storm Region:
-                        <select name="stormRegion">
-                            <option value="">Select Region...</option>
-                            <option value="flashFlood">Preston</option>
-                            <option value="hail">Soda Springs</option>
-                            <option value="hurricane">Fish Haven</option>
-                        </select>
-                    </label>
-                    <div class="top">Are you in danger?</div>
-                    <label class="sbs"><input type="radio" name="inDanger" value="yes">Yes</label>
-                    <label class="sbs"><input type="radio" name="inDanger" value="no">No</label>
-                    <label class="sbs"><input type="radio" name="inDanger" value="maybe">Maybe</label>
-                    <label class="top">Additional Information: <input type="textarea" name="comments"></label>
-                </fieldset>
-                <input type="submit" value="Report Storm" class="submit">
-
-
-
-            </form>
-        </body>
+                </label>
+                <label class="top">Storm Severity:
+                    <input type="range" name="stormSeverity" min="0" max="10" value="5" step="1"></label>
+                <label class="top">Storm Region:
+                    <select name="stormRegion">
+                        <option value="">Select Region...</option>
+                        <option value="flashFlood">Preston</option>
+                        <option value="hail">Soda Springs</option>
+                        <option value="hurricane">Fish Haven</option>
+                    </select>
+                </label>
+                <div class="top">Are you in danger?</div>
+                <label class="sbs"><input type="radio" name="inDanger" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="inDanger" value="no">No</label>
+                <label class="sbs"><input type="radio" name="inDanger" value="maybe">Maybe</label>
+                <label class="top">Additional Information: <input type="text" name="comments"></label>
+            </fieldset>
+            <input type="submit" value="Report Storm" class="submit">
+        </form>
     </main>
+
     <footer>
         <div class="copy">&copy;&nbsp; <div id="year"></div>&nbsp; | Ike Thompson | Seattle, WA | <a
                 href="https://www.byui.edu/online">&nbsp;BYU-I Learning Online</a></div>
