@@ -5,6 +5,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
+        console.log(jsObject);
 
         const curdesc = document.querySelector('#current-desc');
         const curtemp = document.querySelector('#current-temp');
@@ -49,8 +50,11 @@ fetch(apiforecastURL)
             const d = new Date(x.dt_txt);
             document.getElementById(`day${day+1}`).textContent = weekdays[d.getDay()];
             document.getElementById(`forecast${day+1}`).textContent = Math.round(x.main.temp) + ' °F';
+            document.getElementById(`icon${day+1}`).textContent = x.weather[0].description;
             const imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
+            const imagedesc = x.weather[0].description;
             document.querySelectorAll(".five-day-forecast img")[day].src = imagesrc;
+            document.querySelectorAll(".five-day-forecast img")[day].description = imagedesc;
             day++;
         });
 
