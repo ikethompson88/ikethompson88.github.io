@@ -1,0 +1,100 @@
+@media only screen and (min-width: 60em) {
+    main {
+        display: block;
+    }
+
+    header img {
+        max-width: 150px;
+        height: auto;
+        float: left;
+    }
+
+    .location-title {
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .hero-div {
+        position: relative;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .current-weather {
+        position: absolute;
+        Top: 25px;
+        Left: 50px;
+        background-color: #5C5935;
+        padding: 10px 25px;
+    }
+
+    .current-weather p {
+        text-align: left;
+    }
+
+    .forecast-title {
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .day {
+        font-size: 1rem;
+    }
+
+    .article {
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .article h1,
+    p {
+        text-align: left;
+    }
+
+    .article img {
+        float: right;
+        width: 300px;
+        height: auto;
+    }
+
+    .contact-info-title {
+        text-align: left;
+    }
+
+    .contact-information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #B4BFCD;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+    }
+
+}
