@@ -138,7 +138,7 @@ footer {
 }
 
 .five-day-forecast img {
-    max-width: 40%;
+    max-width: 100%;
     padding: 15px 0px 0px 0px;
 }
 
@@ -196,7 +196,7 @@ footer {
 }
 
 .contact-map {
-    width: 100%;
+    max-width: 75%;
     height: auto;
     padding: 25px;
 }
