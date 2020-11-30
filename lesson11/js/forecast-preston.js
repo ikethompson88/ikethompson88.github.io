@@ -16,7 +16,7 @@ fetch(PapiURL)
         curdesc.innerHTML = jsObject.weather[0].description;
         curtemp.innerHTML = Math.round(jsObject.main.temp);
         humidity.innerHTML = jsObject.main.humidity;
-        windspeed.innerHTML = jsObject.wind.speed;
+        windspeed.innerHTML = Math.round(jsObject.wind.speed);
         windchill.innerHTML = windChill(jsObject.main.temp, jsObject.wind.speed);
 
     });

@@ -7,6 +7,20 @@
         max-width: 720px;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+        font-style: italic;
+        padding-bottom: 0.5rem;
+    }
+    
+    p {
+        font-size: .9rem;
+    }
+
     /* HEADER */
 
     header {
@@ -43,13 +57,6 @@
         font-size: 1rem;
     }
 
-    .location-title {
-        text-align: left;
-        max-width: 1260px;
-        margin: auto;
-        padding: 15px;
-    }
-
     .navigation {
         display: flex;
         max-width: 1260px;
@@ -72,6 +79,14 @@
     .hero-image {
         width: 100%;
         height: auto;
+    }
+
+
+    .location-title {
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px;
     }
 
     .current-weather {
