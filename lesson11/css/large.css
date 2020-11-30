@@ -103,9 +103,14 @@
     }
 
     .forecast-title {
+        display: block;
         text-align: left;
         max-width: 1260px;
         margin: auto;
+    }
+
+    .five-day-forecast {
+        display: flex;
     }
 
     .day {
