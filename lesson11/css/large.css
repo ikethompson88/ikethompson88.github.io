@@ -1,0 +1,213 @@
+@media only screen and (min-width: 60em) {
+    main {
+        display: block;
+    }
+
+    .storm-main {
+        max-width: 720px;
+    }
+
+    header img {
+        max-width: 150px;
+        height: auto;
+        float: left;
+    }
+
+    .location-title {
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .hero-div {
+        position: relative;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .current-weather {
+        font-size: .9rem;
+        position: absolute;
+        Top: 25px;
+        Left: 50px;
+        background-color: #5C5935;
+        padding: 10px 25px;
+    }
+
+    .current-weather p {
+        text-align: left;
+    }
+
+    .forecast-title {
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .day {
+        font-size: 1rem;
+    }
+
+    .article {
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .article h1, .article p {
+        text-align: left;
+    }
+
+    .article img {
+        float: right;
+        width: 300px;
+        height: auto;
+    }
+
+    .contact-info-title {
+        text-align: left;
+    }
+
+    .contact-information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #B4BFCD;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .contact-info {
+        font-size: 1rem;
+    }
+
+    /* FORM CSS */
+
+    form fieldset {
+        text-align: left;
+        margin: 2rem 0;
+        border: 1px solid #1E2A3D;
+        border-radius: 10px;
+        padding: 0.5rem 2%;
+    }
+
+    form legend {
+        color: #1E2A3D;
+        margin: 0 1rem;
+        padding: 0.5rem;
+    }
+
+    form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #1E2A3D;
+        font-size: .9rem;
+    }
+
+    form label.top input,
+    form label.top select {
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    form label.sbs {
+        display: block;
+        padding: .75rem;
+        color: #555;
+    }
+
+    form div {
+        padding: 1rem 0;
+    }
+
+    form input.submit {
+        border: none;
+        background-color: #1E2A3D;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+    }
+
+
+    /* SUBMISSION FORM CSS */
+
+    form h1 {
+        color: white;
+        padding: 0px 0px 0px 0px;
+    }
+
+    form h2 {
+        color: #1E2A3D;
+        padding: 0px 0px 0px 0px;
+    }
+
+    form h4 {
+        color: #1E2A3D;
+        padding: 5px 0px 0px 5px;
+        text-align: center;
+    }
+
+    /* Town Cards */
+
+    div.cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    div.cards section {
+        display: block;
+        background-color: #B4BFCD;
+        padding: 0.5rem;
+        border: 1px solid #6b6868;
+        text-align: center;
+    }
+
+    div.cards img {
+        max-width: 95%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 1rem;
+    }
+
+    #date {
+        font-size: 1rem;
+    }
+
+}

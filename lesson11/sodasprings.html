@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="ription" content="The Weather Eye - Preston, Idaho">
+    <title>Preston, Idaho</title>
+    <link rel="shortcut icon" href="images/weather-eye-favicon.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Slab&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/weather-eye-grey.png" alt="The Weather Eye logo">
+        <h1>The Weather Eye</h1>
+        <p>Helping you keep an eye on Mother Nature</p>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a class="active" href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="location-title">Preston, Idaho</h1>
+        <div class="hero-div">
+            <img class="hero-image" src="images/hero-image.jpg" alt="idaho country-side">
+            <section class="current-weather">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current-desc"></span></p>
+                <p>Temperature: <span id="current-temp"></span> °F</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="wind-speed"></span> MPH</p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
+            </section>
+        </div>
+        <div class="forecast-title">
+            <h1>Five Day Forecast</h1>
+        </div>
+        <div class="five-day-forecast">
+            <div class="forecast-col">
+                <span class="day" id="day1"></span>
+                <img src="imagesrc" alt="imagedesc" id="icon1">
+                <span class="temp" id=forecast1></span>
+            </div>
+            <div class="forecast-col">
+                <span class="day" id="day2"></span>
+                <img src="imagesrc" alt="imagedesc" id="icon2">
+                <span class="temp" id="forecast2"></span>
+            </div>
+            <div class="forecast-col">
+                <span class="day" id="day3"></span>
+                <img src="imagesrc" alt="imagedesc" id="icon3">
+                <span class="temp" id="forecast3"></span>
+            </div>
+            <div class="forecast-col">
+                <span class="day" id="day4"></span>
+                <img src="imagesrc" alt="imagedesc" id="icon4">
+                <span class="temp" id="forecast4"></span>
+            </div>
+            <div class="forecast-col">
+                <span class="day" id="day5"></span>
+                <img src="imagesrc" alt="imagedesc" id="icon5">
+                <span class="temp" id="forecast5"></span>
+            </div>
+        </div>
+        <div class="article">
+            <h1>The Great Outdoors!</h1>
+            <img src="images/canoe-on-lake.jpg" alt="people canoeing on a lake">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima
+                temporibus debitis laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Eaque ratione sequi itaque voluptatum, minima temporibus debitis
+                laudantium ut nemo provident.
+                Asperiores itaque rerum numquam veniam, quos eius impedit ipsum voluptatum.
+            </p>
+        </div>
+        <div class="contact-info-title">
+            <h1>Contact Information</h1>
+        </div>
+        <div class="contact-information">
+            <section class="contact-map">
+                <img src="images/preston-idaho-map.jpg" alt="The Weather Eye - Preston Location">
+            </section>
+            <section class="contact-info">
+                <p>Address: 123 Weather Eye Lane, Preston, Idaho 83263</p>
+                <p>Phone: (555) 555-5555</p>
+                <p>Email: info@fakeweathereye.com</p>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <div class="foot-info">
+            <div>&copy;&nbsp; <span id="year"></span>&nbsp;</div>
+            <div>The Weather Eye |</div>
+            <div>&nbsp; Ike Thompson |</div>
+            <a href="home-wireframes.html" target="_blank">&nbsp;Home Page Wireframes</a>
+        </div>
+        <div id="date"></div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/forecast.js"></script>
+</body>
+
+</html>
