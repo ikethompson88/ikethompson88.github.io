@@ -361,6 +361,41 @@ form h4 {
     text-align: center;
 }
 
+/* GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 1em;
+}
+
+.gallery img {
+    max-width: 80%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.gallery figure {
+    text-align: center;
+    margin: 0;
+}
+
+.gallery figcaption {
+    background-color: #f8f8f8;
+    padding: 1em;
+    margin: 0;
+}
+
+.gallery h2 {
+    text-align: center;
+}
+
 /* FOOTER */
 
 footer {

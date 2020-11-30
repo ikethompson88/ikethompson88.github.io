@@ -246,6 +246,13 @@
         max-width: 95%;
     }
 
+    /* GALLERY */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+
     /* FOOTER */
 
     footer {

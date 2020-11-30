@@ -267,6 +267,13 @@
         text-align: center;
     }
 
+    /* GALLERY */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
     /* FOOTER */
 
     footer {
