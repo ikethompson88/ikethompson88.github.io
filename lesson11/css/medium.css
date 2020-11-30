@@ -274,6 +274,14 @@
         grid-gap: 1em;
     }
 
+    .gallery figcaption {
+        font-size: .9rem;
+    }
+    
+    .gallery-title {
+        font-size: 1.5rem;
+    }
+
     /* FOOTER */
 
     footer {

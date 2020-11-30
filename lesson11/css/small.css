@@ -366,19 +366,21 @@ form h4 {
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 1em;
+    max-width: 1280px;
+    margin: auto;
     justify-content: center;
     align-content: center;
-    grid-gap: 1em;
 }
 
 .gallery img {
-    max-width: 80%;
+    max-width: 100%;
     filter: blur(0em);
     transition: filter 0.5s;
 }
 
 .gallery img[data-src] {
-    filter: blur(0.2em);
+    filter: blur(0.25em);
 }
 
 .gallery figure {
@@ -386,14 +388,18 @@ form h4 {
     margin: 0;
 }
 
-.gallery figcaption {
-    background-color: #f8f8f8;
-    padding: 1em;
-    margin: 0;
+.gallery-title {
+    text-align: center;
+    font-size: 1.25rem;
 }
 
-.gallery h2 {
-    text-align: center;
+.gallery figcaption {
+    color: #ffff;
+    background-color: #5C5935;
+    opacity: 90%;
+    padding: 1em;
+    margin: 0;
+    font-size: .75rem;
 }
 
 /* FOOTER */
