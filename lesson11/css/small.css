@@ -10,6 +10,11 @@ body {
     text-align: center;
 }
 
+main {
+    display: block;
+    margin: auto;
+}
+
 h2 {
     font-size: 1.5rem;
 }
@@ -24,32 +29,44 @@ p {
     font-size: .9rem;
 }
 
+
 /* HEADER */
 
 header {
     color: #fff;
-    background-color: #1E2A3D;
-    padding: 5px 0px;
+    background-color: #1A2E3D;
     width: 100%;
+}
+
+header .company-branding {
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+
+header .company-logo {
+    height: 100%;
+}
+
+header .company-name {
+    display: block;
+    flex-direction: column;
 }
 
 header img {
-    width: 115px;
+    width: 100px;
     height: auto;
 }
 
-
-header p {
-    text-align: center;
-    color: #fff;
-    background-color: #1E2A3D;
-    width: 100%;
-
+header .company-name h1 {
+    padding: 5px;
+    margin: 0;
 }
 
-main {
-    display: block;
-    margin: auto;
+header .company-name {
+    font-size: .75rem;
+    padding-top: 0px;
+    padding-bottom: 15px;
 }
 
 /* Navigation */
@@ -358,10 +375,12 @@ footer {
 
 .foot-info {
     display: inline-flex;
+    padding-top: 5px;
 }
 
 #date {
-    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: .75rem;
     color: #B4BFCD;
 }

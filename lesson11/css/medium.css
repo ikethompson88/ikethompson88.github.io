@@ -7,11 +7,48 @@
         max-width: 460px;
     }
 
-    header img {
-        max-width: 150px;
-        height: auto;
-        float: left;
+    /* HEADER */
+
+    header {
+        color: #fff;
+        background-color: #1A2E3D;
+        width: 100%;
     }
+
+    header .company-branding {
+        width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+
+    header .company-logo {
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    header .company-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .company-name h1 {
+        padding: 15px;
+        margin: auto;
+    }
+
+    header img {
+        width: 100px;
+        height: auto;
+    }
+
+    header .company-name {
+        font-size: .9rem;
+    }
+
+    /* NEXT SECTION */
 
     .location-title {
         text-align: left;
@@ -80,7 +117,8 @@
         padding: 15px 0px 15px 0px;
     }
 
-    .article h1, .article p {
+    .article h1,
+    .article p {
         text-align: left;
     }
 

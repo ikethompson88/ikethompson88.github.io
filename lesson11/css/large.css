@@ -7,10 +7,40 @@
         max-width: 720px;
     }
 
+    /* HEADER */
+
+    header {
+        color: #fff;
+        background-color: #1A2E3D;
+        width: 100%;
+    }
+
+    header .company-branding {
+        width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+
+    header .company-logo {
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    header .company-name {
+        display: flex;
+        flex-direction: column;
+    }
+
     header img {
-        max-width: 150px;
+        width: 150px;
         height: auto;
-        float: left;
+    }
+
+    header .company-name {
+        font-size: 1rem;
     }
 
     .location-title {
@@ -73,7 +103,8 @@
         padding: 15px 0px 15px 0px;
     }
 
-    .article h1, .article p {
+    .article h1,
+    .article p {
         text-align: left;
     }
 

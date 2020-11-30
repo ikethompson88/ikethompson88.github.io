@@ -1,8 +1,8 @@
 // Current Weather
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6"
+const FHapiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6"
 
-fetch(apiURL)
+fetch(FHapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
@@ -14,7 +14,7 @@ fetch(apiURL)
         const windchill = document.querySelector('#wind-chill');
 
         curdesc.innerHTML = jsObject.weather[0].description;
-        curtemp.innerHTML = Math.round(jsObject.main.temp,0);
+        curtemp.innerHTML = Math.round(jsObject.main.temp);
         humidity.innerHTML = jsObject.main.humidity;
         windspeed.innerHTML = jsObject.wind.speed;
         windchill.innerHTML = windChill(jsObject.main.temp, jsObject.wind.speed);
@@ -35,9 +35,9 @@ function windChill(temperature, speed) {
 
 // Five Day forecast
 
-const apiforecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6"
+const FHapiforecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6"
 
-fetch(apiforecastURL)
+fetch(FHapiforecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
 

@@ -5,7 +5,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        // console.table(jsonObject); temporary checking for valid response and data parsing
         const towndata = jsonObject['towns'];
         for (let i = 0; i < towndata.length; i++) {
             if (towndata[i].name == "Preston" || towndata[i].name == "Fish Haven" || towndata[i].name == "Soda Springs") {
@@ -24,7 +23,7 @@ fetch(requestURL)
                 h3.textContent = towndata[i].motto;
                 year.textContent = 'Year Founded: ' + towndata[i].yearFounded;
                 population.textContent = 'Population: ' + towndata[i].currentPopulation;
-                rainfall.textContent = 'Annual Rainfall: ' + towndata[i].averageRainfall;
+                rainfall.textContent = 'Annual Rainfall: ' + towndata[i].averageRainfall + ' Inches';
                 if (towndata[i].name == "Preston") {
                     image.setAttribute('src', src = "images/preston-home.jpg");
                     image.setAttribute('alt', 'Preston, Idaho');
@@ -50,8 +49,16 @@ fetch(requestURL)
         }
     });
 
-let date = new Date();
-let updated = document.lastModified;
+const longDate = {
+    weekday: 'long',
+    month: 'long',
+    year: 'numeric',
+    day: 'numeric'
+};
 
-document.getElementById("year").innerHTML = date.getFullYear();
-document.getElementById("date").innerHTML = updated;
+document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById('date').innerHTML = new Date().toLocaleDateString('en-us', longDate);
+
+function toggleMenu() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
