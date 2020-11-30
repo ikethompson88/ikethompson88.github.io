@@ -12,7 +12,7 @@ body {
 
 main {
     display: block;
-    padding: 1rem;
+    padding: 1rem 0rem;
     margin: auto;
 }
 
@@ -242,17 +242,20 @@ div.cards img {
 }
 
 .article h1 {
+    padding: 2px;
     text-align: center;
 }
 
 .article p {
-    padding: 5px;
+    padding: 2px;
+    line-height: 1.6;
     text-align: left;
 }
 
 .article img {
-    width: 300px;
+    width: 75%;
     height: auto;
+    margin: auto;
 }
 
 /* MAP AND CONTACT INFO */
