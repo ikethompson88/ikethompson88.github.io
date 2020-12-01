@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32.5em) {
-    
+
     /* GENERAL */
-    
+
     main {
         display: block;
     }
@@ -13,13 +13,13 @@
     h2 {
         font-size: 1.25rem;
     }
-    
+
     h3 {
         font-size: 1rem;
         font-style: italic;
         padding-bottom: 0.5rem;
     }
-    
+
     p {
         font-size: .8rem;
     }
@@ -197,6 +197,13 @@
         max-width: 85%;
     }
 
+    /* EVENTS */
+
+    .events-title {
+        max-width: 1260px;
+        text-align: left;
+    }
+
     /* FORM CSS */
 
     form fieldset {
@@ -279,7 +286,7 @@
     .gallery figcaption {
         font-size: .9rem;
     }
-    
+
     .gallery-title {
         font-size: 1.5rem;
     }

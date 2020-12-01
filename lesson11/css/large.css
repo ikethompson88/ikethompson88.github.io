@@ -10,13 +10,13 @@
     h2 {
         font-size: 1.5rem;
     }
-    
+
     h3 {
         font-size: 1rem;
         font-style: italic;
         padding-bottom: 0.5rem;
     }
-    
+
     p {
         font-size: .9rem;
     }
@@ -211,6 +211,13 @@
         width: 96%;
     }
 
+    /* EVENTS */
+
+    .events-title {
+        max-width: 1260px;
+        text-align: left;
+    }
+
 
     /* SUBMISSION FORM CSS */
 
@@ -265,7 +272,7 @@
     .gallery figcaption {
         font-size: 1rem;
     }
-    
+
     .gallery-title {
         padding-top: 1rem;
         font-size: 1.5rem;

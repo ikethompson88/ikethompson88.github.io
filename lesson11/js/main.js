@@ -11,3 +11,7 @@ document.getElementById('date').innerHTML = new Date().toLocaleDateString('en-us
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
+function adjustRating(severity) {
+	document.getElementById("ratingValue").innerHTML = severity;
+}

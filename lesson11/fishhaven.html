@@ -38,7 +38,7 @@
         </ul>
     </nav>
     <main>
-        <h1 class="location-title">Fish Haven, Idaho</h1>
+        <h1 id="location-title">Fish Haven</h1>
         <div class="hero-div">
             <img class="hero-image" src="images/fish-haven-hero.jpg" alt="lake at sunset">
             <section class="current-weather">
@@ -50,7 +50,7 @@
                 <p>Wind Chill: <span id="wind-chill"></span></p>
             </section>
         </div>
-        <div class="forecast-title">
+        <div id="forecast-title">
             <h1>Five Day Forecast</h1>
         </div>
         <div class="five-day-forecast">
@@ -83,6 +83,9 @@
         <div class="article">
             <h1>Bull Elk Freed After Catching Antlers in Barbed Wire Fence</h1>
             <img src="images/fish-haven-article.jpg" alt="bull elk">
+            <p>Biologists and conservation officers responded and sedated the elk before disentangling his antlers from
+                the wire and piece of fence post.</p>
+
             <p>“The Idaho Department of Fish and Game was able to successfully free a bull elk that had gotten caught in
                 a fence in southeastern Idaho recently.</p>
 
@@ -92,11 +95,22 @@
 
             <p>Biologists and conservation officers responded and sedated the elk before disentangling his antlers from
                 the wire and piece of fence post. Once freed, the elk was able to return to the wild, officials say.</p>
+
+            <p>On the Idaho Fish and Game Instagram account, they shared a video of the event. They said, "A bull elk
+                near Bloomington found out the hard way that a barbed-wire fence was not the best option for raking its
+                antlers. Biologists and conservation officers in our Southeast Region sedated and freed the entangled
+                elk and watched it safely return to the wild."</p>
             <p> <a
                     href="https://www.ktvb.com/article/life/animals/elk-caught-in-fence-freed-idaho-fish-and-game/277-6ebeda3a-f617-4996-98f1-4ad34a4c69a7">
                     See the video at ktvb.com</a>
             </p>
         </div>
+
+        <div class="events-title"><h1>Upcoming Events</h1></div>
+        <div class="upcoming-events">
+            <div id="events"></div>
+        </div>
+
         <div class="contact-info-title">
             <h1>Contact Information</h1>
         </div>
@@ -121,6 +135,7 @@
         <div id="date"></div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/town-events.js"></script>
     <script src="js/forecast-fishhaven.js"></script>
 </body>
 
