@@ -272,12 +272,12 @@ div.cards img {
 .events-title {
     max-width: 1260px;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .upcoming-events p {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 /* MAP AND CONTACT INFO */

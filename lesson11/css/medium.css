@@ -204,6 +204,11 @@
         text-align: left;
     }
 
+    .upcoming-events p {
+        text-align: center;
+        font-size: 1.15rem;
+    }
+
     /* FORM CSS */
 
     form fieldset {

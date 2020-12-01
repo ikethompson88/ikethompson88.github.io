@@ -218,6 +218,11 @@
         text-align: left;
     }
 
+    .upcoming-events p {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
 
     /* SUBMISSION FORM CSS */
 
