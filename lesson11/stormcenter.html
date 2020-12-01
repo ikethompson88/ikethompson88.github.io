@@ -18,13 +18,15 @@
 
     <header>
         <div class="company-branding">
-            <div class="company-logo">
-                <img class="logo" src="images/weather-eye-grey.png" alt="The Weather Eye logo">
-            </div>
-            <div class="company-name">
-                <h1>The Weather Eye</h1>
-                <span>Helping you keep an eye on Mother Nature</span>
-            </div>
+            <a href="index.html">
+                <div class="company-logo">
+                    <img class="logo" src="images/weather-eye-grey.png" alt="The Weather Eye logo">
+            </a>
+        </div>
+        <div class="company-name">
+            <h1>The Weather Eye</h1>
+            <span>Helping you keep an eye on Mother Nature</span>
+        </div>
         </div>
     </header>
 
@@ -64,8 +66,8 @@
                         <option value="Thunderstorm">
                     </datalist>
                 </label>
-                <label class="top"><span class="label">Storm Severity</span><input id="severity" type="range" name="stormSeverity"
-                        min="1" max="10" value="5" step="1"  oninput="adjustRating(this.value)"
+                <label class="top"><span class="label">Storm Severity</span><input id="severity" type="range"
+                        name="stormSeverity" min="1" max="10" value="5" step="1" oninput="adjustRating(this.value)"
                         onchange="adjustRating(this.value)"><span id="ratingValue"></span>
                 </label>
 
@@ -81,7 +83,8 @@
                 <label class="sbs"><input type="radio" name="inDanger" value="yes">Yes</label>
                 <label class="sbs"><input type="radio" name="inDanger" value="no">No</label>
                 <label class="sbs"><input type="radio" name="inDanger" value="maybe">Maybe</label>
-                <label class="top"><span class="label">Additional Info</span><input type="textarea" name="comments"></label>
+                <label class="top"><span class="label">Additional Info</span><input type="textarea"
+                        name="comments"></label>
             </fieldset>
             <input type="submit" value="Report Storm" class="submit">
         </form>
