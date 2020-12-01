@@ -1,0 +1,308 @@
+@media only screen and (min-width: 32.5em) {
+
+    /* GENERAL */
+
+    main {
+        display: block;
+    }
+
+    .storm-main {
+        max-width: 460px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-style: italic;
+        padding-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+
+    /* HEADER */
+
+    header {
+        color: #fff;
+        background-color: #1A2E3D;
+        width: 100%;
+    }
+
+    header .company-branding {
+        width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+
+    header .company-logo {
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    header .company-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .company-name h1 {
+        padding: 15px;
+        margin: auto;
+    }
+
+    header img {
+        width: 100px;
+        height: auto;
+    }
+
+    header .company-name {
+        font-size: .9rem;
+    }
+
+    /* NEXT SECTION */
+
+    .location-title {
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .hero-div {
+        position: relative;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .current-weather {
+        font-size: .9rem;
+        Top: 25px;
+        Left: 50px;
+        background-color: #5C5935;
+        padding: 10px 25px;
+    }
+
+    .current-weather p {
+        text-align: center;
+    }
+
+    .forecast-title {
+        display: block;
+        text-align: left;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .five-day-forecast {
+        display: flex;
+    }
+
+    .day {
+        font-size: 1rem;
+    }
+
+    .article {
+        max-width: 720px;
+        margin: auto;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .article h1,
+    .article p {
+        text-align: left;
+    }
+
+    .article img {
+        float: right;
+        height: auto;
+    }
+
+    .contact-info-title {
+        text-align: left;
+    }
+
+    .contact-information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #B4BFCD;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .contact-map {
+        width: 100%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .contact-info {
+        font-size: .9rem;
+        padding: 75px 25px;
+    }
+
+    /* Town Cards */
+
+    div.cards {
+        grid-template-columns: 1fr;
+    }
+
+    div.cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #B4BFCD;
+        padding: 0.5rem;
+        border: 1px solid #6b6868;
+        text-align: center;
+    }
+
+    .cards section:nth-child(3) div:nth-child(odd) {
+        order: 2;
+    }
+
+    .cards section:nth-child(3) div:nth-child(odd) img {
+        order: 1;
+    }
+
+    div.cards img {
+        max-width: 85%;
+    }
+
+    /* EVENTS */
+
+    .events-title {
+        max-width: 1260px;
+        text-align: left;
+    }
+
+    .upcoming-events p {
+        text-align: center;
+        font-size: 1.15rem;
+    }
+
+    /* FORM CSS */
+
+    form fieldset {
+        text-align: left;
+        margin: 2rem 0;
+        border: 1px solid #1E2A3D;
+        border-radius: 10px;
+        padding: 0.5rem 2%;
+    }
+
+    form legend {
+        color: #1E2A3D;
+        margin: 0 1rem;
+        padding: 0.5rem;
+    }
+
+    form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #1E2A3D;
+        font-size: .9rem;
+    }
+
+    form label.top input,
+    form label.top select {
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    form label.sbs {
+        display: block;
+        padding: .75rem;
+        color: #555;
+    }
+
+    form div {
+        padding: 1rem 0;
+    }
+
+    form input.submit {
+        border: none;
+        background-color: #1E2A3D;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+    }
+
+    form h1 {
+        color: white;
+        padding: 0px 0px 0px 0px;
+    }
+
+    form h2 {
+        color: #1E2A3D;
+        padding: 0px 0px 0px 0px;
+    }
+
+    form h4 {
+        color: #1E2A3D;
+        padding: 5px 0px 0px 5px;
+        text-align: center;
+    }
+
+    /* GALLERY */
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .gallery figcaption {
+        font-size: .9rem;
+    }
+
+    .gallery-title {
+        font-size: 1.5rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 1rem;
+    }
+
+    #date {
+        font-size: 1rem;
+    }
+}

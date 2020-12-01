@@ -1,0 +1,467 @@
+/* General */
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0px 0px 5px;
+    background-color: white;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    display: block;
+    padding: 1rem 0rem;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: .8rem;
+    font-style: italic;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    font-size: .8rem;
+}
+
+
+/* HEADER */
+
+header {
+    color: #fff;
+    background-color: #1A2E3D;
+    width: 100%;
+}
+
+header .company-branding {
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+
+header .company-logo {
+    height: 100%;
+}
+
+header .company-name {
+    display: block;
+    flex-direction: column;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header .company-name h1 {
+    padding: 5px;
+    margin: 0;
+}
+
+header .company-name {
+    font-size: .75rem;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+/* Navigation */
+
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #B4BFCD;
+    text-align: center;
+
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #1E2A3D;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navigation a:hover {
+    background-color: #F6E7A3;
+    color: #1E2A3D;
+    transition: .25s;
+}
+
+.active {
+    background-color: #F6E7A3;
+    color: #1E2A3D;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* HOME PAGE TOWN CARDS */
+
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+
+div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #B4BFCD;
+    padding: 1rem;
+    border: 1px solid #6b6868;
+    text-align: center;
+    align-items: center;
+}
+
+.cards section:nth-child(3) div:nth-child(odd) {
+    order: 2;
+}
+
+.cards section:nth-child(3) div:nth-child(odd) img {
+    order: 1;
+}
+
+div.cards img {
+    max-width: 95%;
+    border: 1px solid #6b6868;
+}
+
+.cards section:nth-of-type(1) {
+    order: 3;
+}
+
+.cards section:nth-of-type(2) {
+    order: 1;
+}
+
+.cards section:nth-of-type(3) {
+    order: 2;
+}
+
+/* TOWN PAGE */
+
+.hero-div {
+    position: relative;
+    padding: 0px 0px 0px 0px
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.current-weather {
+    font-size: .75rem;
+    Top: 25px;
+    Left: 50px;
+    background-color: #5C5935;
+    padding: 10px 25px;
+
+}
+
+.current-weather h2 {
+    color: white;
+}
+
+.current-weather p {
+    color: white;
+    text-align: center;
+}
+
+.forecast-title {
+    display: none;
+    text-align: center;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.five-day-forecast {
+    max-width: 1260px;
+    display: none;
+    margin: auto;
+    border-bottom: 2px solid #1A2E3D;
+    border-left: 2px solid #1A2E3D;
+}
+
+.five-day-forecast img {
+    max-width: 100%;
+    padding: 15px 0px 0px 0px;
+}
+
+.day {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: .75rem;
+    background-color: #1E2A3D;
+    color: white;
+}
+
+.forecast-col {
+    flex: 1 1 auto;
+    border-right: 2px solid #1A2E3D;
+}
+
+.temp {
+    display: block;
+    padding: 0px 0px 15px 0px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* ARTICLE */
+
+.article {
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+}
+
+.article h1 {
+    padding: 2px;
+    text-align: center;
+}
+
+.article p {
+    padding: 2px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* EVENTS */
+
+.upcoming-events {
+    max-width: 1260px;
+    margin: auto;
+    padding: 1rem 0rem;
+    background-color: #1A2E3D;
+    color: white;
+}
+
+.events-title {
+    max-width: 1260px;
+    margin: auto;
+    text-align: center;
+}
+
+.upcoming-events p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* MAP AND CONTACT INFO */
+
+.contact-info-title {
+    text-align: center;
+    margin: auto;
+    max-width: 1260px;
+}
+
+.contact-information {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #B4BFCD;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.contact-map img {
+    max-width: 75%;
+    height: auto;
+    padding: 25px;
+}
+
+.contact-info {
+    font-size: .75rem;
+    padding: 0px 25px 10px 25px;
+}
+
+/* FORM CSS */
+
+form fieldset {
+    text-align: left;
+    margin: 2rem 0;
+    border: 1px solid #1E2A3D;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+}
+
+form legend {
+    color: #1E2A3D;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: #1E2A3D;
+    font-size: .9rem;
+}
+
+form label.top .label {
+    display: inline-block;
+    width: 120px;
+}
+
+form label.top input,
+form label.top select {
+    display: inline-block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 50%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form div {
+    padding: 1rem 0;
+}
+
+form input.submit {
+    border: none;
+    background-color: #1E2A3D;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+
+/* SUBMISSION FORM CSS */
+
+form h1 {
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+form h2 {
+    color: #1E2A3D;
+    padding: 0px 0px 0px 0px;
+}
+
+form h4 {
+    color: #1E2A3D;
+    padding: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+/* GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.25em);
+}
+
+.gallery figure {
+    text-align: center;
+    margin: 0;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.gallery figcaption {
+    color: #ffff;
+    background-color: #5C5935;
+    opacity: 90%;
+    padding: 1em;
+    margin: 0;
+    font-size: .8rem;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #1E2A3D;
+    font-size: .6rem;
+    padding: 10px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.foot-info {
+    display: inline-flex;
+    padding-top: 5px;
+}
+
+#date {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .75rem;
+    color: #B4BFCD;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    transition: .5s;
+    color: #F6E7A3;
+}
