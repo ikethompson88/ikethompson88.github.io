@@ -23,7 +23,7 @@ fetch(requestURL)
                 h3.textContent = towndata[i].motto;
                 year.textContent = 'Year Founded: ' + towndata[i].yearFounded;
                 population.textContent = 'Population: ' + towndata[i].currentPopulation;
-                rainfall.textContent = 'Annual Rainfall: ' + towndata[i].averageRainfall + ' Inches';
+                rainfall.textContent = 'Annual Rainfall: ' + Math.round(towndata[i].averageRainfall) + ' Inches';
                 if (towndata[i].name == "Preston") {
                     image.setAttribute('src', src = "images/preston-home-small.jpg");
                     image.setAttribute('alt', 'Preston, Idaho');
