@@ -82,7 +82,7 @@
     }
 
 
-    .location-title {
+    #location-title {
         text-align: left;
         max-width: 1260px;
         margin: auto;
