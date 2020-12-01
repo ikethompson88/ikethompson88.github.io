@@ -5,7 +5,6 @@ const FHapiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399
 fetch(FHapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
         const curdesc = document.querySelector('#current-desc');
         const curtemp = document.querySelector('#current-temp');
@@ -55,8 +54,8 @@ fetch(FHapiforecastURL)
             const imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
             const imagedesc = x.weather[0].description;
             
-            document.querySelectorAll(".five-day-forecast img")[day].src = imagesrc;
-            document.querySelectorAll(".five-day-forecast img")[day].alt = imagedesc;
+            document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+            document.getElementById(`icon${day+1}`).setAttribute('alt', imagedesc);
             
             day++;
         });

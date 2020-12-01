@@ -5,7 +5,6 @@ const SSapiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&uni
 fetch(SSapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
         const curdesc = document.querySelector('#current-desc');
         const curtemp = document.querySelector('#current-temp');
@@ -55,8 +54,8 @@ fetch(SSapiforecastURL)
             const imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
             const imagedesc = x.weather[0].description;
 
-            document.querySelectorAll(".five-day-forecast img")[day].src = imagesrc;
-            document.querySelectorAll(".five-day-forecast img")[day].alt = imagedesc;
+            document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+            document.getElementById(`icon${day+1}`).setAttribute('alt', imagedesc);
 
             day++;
         });
