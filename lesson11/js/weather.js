@@ -1,8 +1,14 @@
 // Current Weather
 
-const FHapiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6"
+if (document.getElementById("location-title").innerHTML.indexOf("Preston") != -1) {
+    apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6";
+} else if (document.getElementById("location-title").innerHTML.indexOf("Soda") != -1) {
+    apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6";
+} else {
+    apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6";
+}
 
-fetch(FHapiURL)
+fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
 
@@ -34,9 +40,15 @@ function windChill(temperature, speed) {
 
 // Five Day forecast
 
-const FHapiforecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6"
+if (document.getElementById("location-title").innerHTML.indexOf("Preston") != -1) {
+    forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6";
+} else if (document.getElementById("location-title").innerHTML.indexOf("Soda") != -1) {
+    forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6";
+} else {
+    forecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&units=imperial&appid=036f9f0a4afb3430bbf52e171aad4ae6";
+}
 
-fetch(FHapiforecastURL)
+fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
 
