@@ -1,0 +1,52 @@
+{
+    "rentals": [
+      {
+        "vehicle": "Honda Metro Scooter",
+        "max": "1",
+        "rHalf": "$20",
+        "rFull": "$30",
+        "wHalf": "$25",
+        "wFull": "$35"
+      },
+      {
+        "vehicle": "Honda Dio Scooter",
+        "max": "2",
+        "rHalf": "$30",
+        "rFull": "$40",
+        "wHalf": "$35",
+        "wFull": "$45"
+      },
+      {
+        "vehicle": "Honda PCX150 Scooter",
+        "max": "2",
+        "rHalf": "$40",
+        "rFull": "$50",
+        "wHalf": "$45",
+        "wFull": "$55"
+      },
+      {
+        "vehicle": "Honda Pioneer ATV",
+        "max": "4",
+        "rHalf": "$50",
+        "rFull": "$70",
+        "wHalf": "$60",
+        "wFull": "$80"
+      },
+      {
+        "vehicle": "Jeep Wrangler - 4 door with a/c",
+        "max": "5",
+        "rHalf": "$70",
+        "rFull": "$100",
+        "wHalf": "$85",
+        "wFull": "$125"
+      },
+      {
+        "vehicle": "Jeep Wrangler - 2 door",
+        "max": "4",
+        "rHalf": "$60",
+        "rFull": "$85",
+        "wHalf": "$70",
+        "wFull": "$90"
+      }
+    ]
+  }
