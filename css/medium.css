@@ -1,13 +1,141 @@
 @media only screen and (min-width: 32.5em) {
-    h1 {
-        font-size: 2.5em;
-    }
 
+    h1,
     h2 {
-        font-size: 1.5em;
+        text-align: left;
     }
 
-    header img {
-        float: right;
-      }
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #023047;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Header */
+
+    /* Navigation */
+
+    nav {
+        background-color: #FB8500;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    /* hero image */
+
+    .hero-content {
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-text {
+        top: 100px;
+        left: 75px;
+    }
+
+    .hero-cta {
+        padding: 1.5rem 0;
+    }
+
+    .hero-cta a {
+        background-color: #FB8500;
+        padding: 1rem 1.5rem;
+        color: #023047;
+        text-decoration: none;
+    }
+
+
+    /* Rental Options */
+
+    .rental-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        padding: 1rem;
+    }
+
+    /* Rental Locations */
+
+    .rental-locations {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        max-width: 1280px;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .locations {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .locations img {
+        height: auto;
+    }
+
+    /* Reservations */
+
+    .reservation-details {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .reservation-details ul {
+        text-align: left;
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+
+    form input.submit, input.submit {
+        width: 25px;
+    }
+
+    /* Table */
+
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    table caption {
+        font-size: 1.1rem;
+    }
+
+    thead tr {
+        font-size: 1rem;
+    }
+
+    tbody td {
+        font-size: .9rem;
+    }
+
+        /* Footer */
+
+footer {
+    font-size: .9rem;
+    }
+
 }

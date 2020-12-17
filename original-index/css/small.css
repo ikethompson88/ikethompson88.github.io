@@ -1,0 +1,67 @@
+
+@import url("https://use.typekit.net/bzl8pto.css");
+  
+  header img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  header, footer {
+    text-align: center;
+    color: #fff;
+    background-color: #355464;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  main li{
+  padding: 2px
+  }
+
+  body {
+    margin: 5px 0px 0px 0px;
+    font-family: ratio, sans-serif;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  h1{
+    font-family: adelle, serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 5px 25px;
+    color: white;
+}
+
+  h2{
+    font-family: adelle, serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #001628;
+  }
+  
+.copy{
+  display: inline-flex;
+}
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+
+footer a:hover{
+    transition: .5s;
+    color: red;
+}
+  
+  .updated {
+    padding: 2px;
+    font-size: .9em;
+    color: #99d9d9;
+  }
