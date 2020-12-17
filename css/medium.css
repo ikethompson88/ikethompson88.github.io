@@ -132,6 +132,19 @@
         font-size: .9rem;
     }
 
+    /* Forms */
+
+    .history {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .history p {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
         /* Footer */
 
 footer {

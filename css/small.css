@@ -391,6 +391,23 @@ tbody td {
     padding-bottom: 25rem;
 }
 
+/* Tours */
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.history p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.history img {
+    max-width: 100%;
+}
+
 /* Footer */
 
 footer {
@@ -413,5 +430,5 @@ footer a {
 
 footer a:hover {
     transition: .5s;
-    color: #F6E7A3;
+    color: #fff;
 }
