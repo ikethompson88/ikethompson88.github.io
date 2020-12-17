@@ -214,7 +214,6 @@
     .history{
         grid-template-columns: 1fr 1fr;
         padding: 2rem;
-        align-items: center;
     }
     
     .history p {
