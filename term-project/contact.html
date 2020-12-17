@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Contact Page with information and contact form">
+    <title>Contact Us!</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo" src="images/scoots-logo.png" alt="Scoots Logo">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Our Info</h2>
+        <div class="contact-info">
+            <p>Phone: (555) 555-5555</p>
+            <p>email: info@scootsrentals.com</p>
+        </div>
+
+        <h2>Contact Us</h2>
+
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top"><span class="label">Full Name*</span> <input type="text" name="fullName" required
+                            pattern="[a-zA-Z\s]{5,}"></label>
+                    <label class="top"><span class="label">Email Address</span> <input type="email" name="email"
+                            placeholder="email@example.com"></label>
+                    <label class="top"><span class="label">Phone*</span> <input type="tel" name="number" required></label>
+                    <label class="top"><span class="label">Zip Code*</span> <input type="number" name="zip"
+                            required></label>
+                    <label class="top"><span class="label"></span> <textarea name="message" rows="10" cols="30" placeholder="Write your Message Here!"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Send Message" class="submit">
+            </form>
+
+        <h2>Our Locations</h2>
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170347.82665238247!2d-87.00655568431768!3d20.45733817249847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sus!4v1608205169350!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155196.6877987633!2d-87.00007262047431!3d20.480714658547445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sus!4v1608205386388!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copy"> &copy;&nbsp; <span id="year"></span>&nbsp; | Scoots Rentals |&nbsp; <div class="updated">
+                <span id="last-updated"></span></div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

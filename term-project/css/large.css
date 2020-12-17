@@ -1,0 +1,191 @@
+@media only screen and (min-width: 60em) {
+
+    h1,
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #023047;
+        text-align: left;
+    }
+
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #023047;
+    }
+
+    /* Header */
+
+    .logo {
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    /* Navigation */
+
+    nav {
+        background-color: #FB8500;
+    }
+
+    .navigation {
+        display: flex;
+        max-width: 1260px;
+        margin: auto;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        font-size: 1.25rem;
+    }
+
+    /* Hero */
+
+    .hero-content {
+        position: relative;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 100px;
+        left: 75px;
+        text-align: left;
+    }
+
+    .hero-cta {
+        padding: 1.5rem 0;
+    }
+
+    .hero-cta a {
+        background-color: #FB8500;
+        padding: 1rem 1.5rem;
+        color: #023047;
+        text-decoration: none;
+    }
+
+    /* Rental Options */
+
+    .rental-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3em;
+        padding: 1rem;
+    }
+
+    /* Rental Locations */
+
+    .rental-locations {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        max-width: 1280px;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .locations {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .locations img {
+        height: auto;
+    }
+
+    /* Forecast */
+
+    .forecast {
+        display: flex;
+    }
+
+    .forecast-col {
+        flex: 1 1 auto;
+    }
+
+    /* Maps */
+
+    .maps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .maps iframe {
+        width: 100%;
+    }
+
+    /* FORM CSS */
+
+    form fieldset {
+        max-width: 720px;
+        text-align: left;
+        margin: 1rem auto;
+        border: 1px solid #FB8500;
+        border-radius: 10px;
+        padding: 0.5rem 2%;
+    }
+
+    form legend {
+        color: #023047;
+        margin: 0 1rem;
+        padding: 0.5rem;
+    }
+
+    form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #023047;
+    }
+
+    form label.top input,
+    form label.top select,
+    form label.top textarea {
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    form div {
+        padding: 1rem 0;
+    }
+
+    /* Reservations */
+
+    .reservation-details {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
+
+    .reservation-details ul {
+        text-align: left;
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+
+    .reservation-form {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .reservation-form fieldset {
+        width: 50%;
+    }
+
+}
