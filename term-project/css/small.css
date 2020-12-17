@@ -278,13 +278,9 @@ form label.top textarea {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 50%;
+    width: 440px;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
-}
-
-form div {
-    padding: 1rem 0;
 }
 
 form input.submit, input.submit {
@@ -293,7 +289,7 @@ form input.submit, input.submit {
     color: #023047;
     border-radius: 1rem;
     padding: 1rem;
-    width: 75%;
+    width: 25px;
 }
 
 form input.submit:hover, input.submit:hover {
@@ -386,6 +382,13 @@ tbody td {
 tbody td {
     font-size: .8em;
     border: 1px solid #023047;
+}
+
+/* Confirmation css */
+
+.confirmation {
+    padding-top: 2rem;
+    padding-bottom: 25rem;
 }
 
 /* Footer */

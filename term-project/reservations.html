@@ -53,7 +53,7 @@
             <img src="images/reservations-street.jpg" alt="Street in Cozumel">
         </div>
 
-        <form class="reservation-form" method="get" action="confirmation.html">
+        <form class="reservation-form" id="resID" method="get" action="confirmation.html">
             <fieldset>
                 <legend>Contact Information</legend>
                 <label class="top"><span class="label">Full Name*</span> <input type="text" name="fullName" required
@@ -70,7 +70,7 @@
                 <label class="top"><span class="label">Rental Date*</span><input type="date" name="rentalDate"
                         required></label>
                 <label class="top"><span class="label">Total Days*</span> <input type="text" name="totalDays"
-                        pattern="[0-9]{2}" required></label>
+                        pattern="[0-9]{,2}" required></label>
                 <label class="top"><span class="label">Rental Type*</span><input list="rentalOptions" name="rentalType"
                         required placeholder="Select Your Ride!">
                     <datalist id="rentalOptions">
@@ -82,14 +82,12 @@
                         <option value="Jeep Wrangler - 2 door"></option>
                     </datalist>
                 </label>
-                    <label class="top"><span class="label">Cruise Line</span> <input type="text" name="cruiseLine" required
-                        pattern="[a-zA-Z\s]{5}"></label>
+                    <label class="top"><span class="label">Cruise Line</span> <input type="text" name="cruiseLine" ></label>
                 <label class="top"><span class="label"></span> <textarea name="message" rows="10" cols="30"
                         placeholder="Please tell us anything else we need to know!"></textarea></label>
-
             </fieldset>
         </form>
-        <input type="submit" value="Complete Reservation" class="submit">
+        <input type="submit" form="resID" value="Reserve!" class="submit">
 
     </main>
 

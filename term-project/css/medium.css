@@ -1,15 +1,15 @@
 @media only screen and (min-width: 32.5em) {
 
     h1,
-    h2,
-    h3 {
-        font-family: 'Josefin Sans', sans-serif;
-        color: #023047;
+    h2 {
         text-align: left;
     }
 
     h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #023047;
         font-weight: bold;
+        text-align: center;
     }
 
     /* Header */
@@ -69,7 +69,7 @@
     .rental-options {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 3em;
+        grid-gap: 1em;
         padding: 1rem;
     }
 
@@ -108,7 +108,7 @@
     }
 
     form input.submit, input.submit {
-        width: 25%;
+        width: 25px;
     }
 
     /* Table */
