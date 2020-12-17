@@ -278,8 +278,8 @@ form label.top textarea {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 440px;
-    max-width: 20rem;
+    width: 50%;
+    max-width: 50%;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -289,7 +289,7 @@ form input.submit, input.submit {
     color: #023047;
     border-radius: 1rem;
     padding: 1rem;
-    width: 25px;
+    width: 50%;
 }
 
 form input.submit:hover, input.submit:hover {
