@@ -19,10 +19,10 @@ fetch(requestURL)
 
             type.textContent = rentals[i].vehicle;
             max.textContent = rentals[i].max;
-            resHalf.textContent = rentals[i].reservation-half;
-            resFull.textContent = rentals[i].reservation-full;
-            walkHalf.textContent = rentals[i].walk-half;
-            walkFull.textContent = rentals[i].walk-half;
+            resHalf.textContent = rentals[i].rHalf;
+            resFull.textContent = rentals[i].rFull;
+            walkHalf.textContent = rentals[i].wHalf;
+            walkFull.textContent = rentals[i].wFull;
 
             row.appendChild(type);
             row.appendChild(max);
