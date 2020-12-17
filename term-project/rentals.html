@@ -37,19 +37,31 @@
 
     <main>
         <table>
-            <caption>ACME Wildwest</caption>
+            <caption>Max Persons and Price Chart (includes Tax)</caption>
             <thead>
                 <tr>
-                    <th>Period</th>
-                    <th>Sales</th>
-                    <th>Sales Goal</th>
+                    <th></th>
+                    <th>Max Persons</th>
+                    <th colspan="2">Reservation</th>
+                    <th colspan="2">Walk-In</th>
+                </tr>
+                <!-- Getting an HTML error with above colspan because of the order the json file 
+                    builds and can't figure out a proper fix so this is the work around -->
+                <tr class="ignore">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </thead>
-            <tbody class="table-body">
-                
-            </tbody>
+            <tbody class="body"></tbody>
+        </table>
+        <div class="hero-cta">
+            <a href="reservations.html" target="_blank">Ready to Book?</a>
+        </div>
     </main>
-
     <footer>
         <div class="copy"> &copy;&nbsp; <span id="year"></span>&nbsp; | Scoots Rentals |&nbsp; <div class="updated">
                 <span id="last-updated"></span></div>

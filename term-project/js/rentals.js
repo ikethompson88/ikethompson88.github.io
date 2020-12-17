@@ -1,11 +1,11 @@
-const requestURL = 'https://raw.githubusercontent.com/ikethompson88/ikethompson88.github.io/master/term-project/data/rentals.JSON';
+const requestURL = 'https://raw.githubusercontent.com/ikethompson88/ikethompson88.github.io/master/term-project/data/rentals.json';
 
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); //temporary checking for valid response and data parsing
+
         const rentals = jsonObject['rentals'];
         for (let i = 0; i < rentals.length; i++) {
 
@@ -31,7 +31,7 @@ fetch(requestURL)
             row.appendChild(walkHalf);
             row.appendChild(walkFull);
 
-            document.querySelector('table.body').appendChild(row);
+            document.querySelector('tbody.body').appendChild(row);
 
         }
     });

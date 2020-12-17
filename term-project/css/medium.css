@@ -1,15 +1,15 @@
 @media only screen and (min-width: 32.5em) {
 
     h1,
-    h2 {
+    h2,
+    h3 {
         font-family: 'Josefin Sans', sans-serif;
         color: #023047;
         text-align: left;
     }
 
     h3 {
-        font-family: 'Josefin Sans', sans-serif;
-        color: #023047;
+        font-weight: bold;
     }
 
     /* Header */
@@ -105,6 +105,37 @@
         text-align: left;
         font-size: 1.15rem;
         line-height: 1.5;
+    }
+
+    form input.submit, input.submit {
+        width: 25%;
+    }
+
+    /* Table */
+
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    table caption {
+        font-size: 1.1rem;
+    }
+
+    thead tr {
+        font-size: 1rem;
+    }
+
+    tbody td {
+        font-size: .9rem;
+    }
+
+        /* Footer */
+
+footer {
+    font-size: .9rem;
     }
 
 }
